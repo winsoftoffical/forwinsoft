@@ -123,17 +123,6 @@ hideBtn.TextColor3 = COL_TEXT
 hideBtn.Parent = header
 Instance.new("UICorner", hideBtn).CornerRadius = UDim.new(0, 8)
 
-local closeBtn = Instance.new("TextButton")
-closeBtn.AnchorPoint = Vector2.new(1, 0.5)
-closeBtn.Position = UDim2.new(1, -14, 0.5, 0)
-closeBtn.Size = UDim2.fromOffset(32, 32)
-closeBtn.BackgroundTransparency = 1
-closeBtn.Font = Enum.Font.GothamBold
-closeBtn.Text = "✕"
-closeBtn.TextSize = 18
-closeBtn.TextColor3 = COL_SUBTEXT
-closeBtn.Parent = header
-
 ----------------------------------------------------------------
 -- Поле для кода
 ----------------------------------------------------------------
